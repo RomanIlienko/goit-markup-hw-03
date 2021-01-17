@@ -32,10 +32,15 @@ a {
 /* header */
 
 .page-header {
+  display: inline-block;
+  width: 1600px;
+  border-radius: 0px;
+
   background-color: var(--second-txt-bcg-color);
 }
 
 .header-logo {
+  margin-left: 215px;
   color: var(--title-text-color);
   font-family: "Raleway", sans-serif;
   font-size: 26px;
@@ -152,6 +157,7 @@ a {
 }
 
 .advantage-titles-text {
+  margin-top: 0;
   margin-bottom: 94px;
   padding: 0;
   font-size: 14px;
@@ -215,9 +221,17 @@ a {
 
 .footer {
   background-color: var(--hero-footer-bcg-clr);
+  height: 252px;
+  width: 1600px;
+  border-radius: 0px;
 }
 
 .footer-logo {
+  display: inline-block;
+  margin-top: 60px;
+  margin-right: 1240px;
+  margin-bottom: 20px;
+  margin-left: 215px;
   color: var(--second-txt-bcg-color);
   font-family: "Raleway", sans-serif;
   font-size: 26px;
@@ -239,12 +253,33 @@ a {
   letter-spacing: 0.03em;
 }
 
+.physical-adress {
+  margin: 0;
+  margin-bottom: 9px;
+  margin-right: 1154px;
+  margin-bottom: 9px;
+  margin-left: 215px;
+  padding: 0;
+}
+
 .footer-contacts {
   color: rgba(255, 255, 255, 0.6);
   font-size: 14px;
   font-weight: 400;
   line-height: 1.714;
   letter-spacing: 0.03em;
+}
+
+.footer-contacts.mail {
+  margin-right: 1154px;
+  margin-bottom: 9px;
+  margin-left: 215px;
+}
+
+.footer-contacts.tel {
+  margin-right: 1154px;
+  margin-bottom: 60px;
+  margin-left: 215px;
 }
 
 .footer-contacts:hover,
