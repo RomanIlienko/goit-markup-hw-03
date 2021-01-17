@@ -19,6 +19,8 @@ body {
 }
 
 ul {
+  margin: 0;
+  padding: 0;
   list-style: none;
 }
 
@@ -76,9 +78,19 @@ a {
 /* hero */
 .hero-section {
   background-color: var(--hero-footer-bcg-clr);
+  text-align: center;
+  margin-bottom: 94px;
+  width: 1600px;
+  height: 600px;
 }
 
 .hero-section-title {
+  padding-top: 200px;
+  padding-right: 452px;
+  padding-left: 452px;
+  margin-top: 0;
+  margin-bottom: 30px;
+  /* background-color: tomato; */
   color: var(--second-txt-bcg-color);
   font-size: 44px;
   font-weight: 900;
@@ -89,6 +101,9 @@ a {
 }
 
 .button-order {
+  margin-right: 700px;
+  margin-bottom: 200px;
+  margin-left: 700px;
   background-color: var(--accent-color);
   color: var(--second-txt-bcg-color);
   font-size: 16px;
@@ -105,6 +120,12 @@ a {
   border: 0px;
 }
 
+/* advantage section */
+
+.advantage-section {
+  outline: 2px solid #2196f3;
+}
+
 .team-section {
   background-color: #f5f4fa;
 }
@@ -114,7 +135,14 @@ a {
   background-color: var(--second-txt-bcg-color);
 }
 
+.advantage-list {
+  display: inline-block;
+}
+
 .advantage-titles {
+  margin-top: 0;
+  margin-bottom: 10px;
+  padding: 0;
   color: var(--title-text-color);
   font-size: 14px;
   font-weight: 700;
@@ -124,6 +152,8 @@ a {
 }
 
 .advantage-titles-text {
+  margin-bottom: 94px;
+  padding: 0;
   font-size: 14px;
   font-weight: 400;
   line-height: 1.714;
@@ -131,8 +161,12 @@ a {
   text-align: left;
 }
 
+/* wtah we do section */
+
 .what-we-do-title,
 .team-title {
+  margin-top: 0;
+  margin-bottom: 50px;
   color: var(--title-text-color);
   font-size: 36px;
   font-weight: 700;
@@ -141,7 +175,21 @@ a {
   text-align: center;
 }
 
+.developers-photo {
+  margin-bottom: 30px;
+}
+
+.team-title {
+  padding-top: 94px;
+}
+
+.what-we-do-photos {
+  margin-bottom: 94px;
+}
+
 .developer-names {
+  margin-top: 0;
+  margin-bottom: 10px;
   color: var(--title-text-color);
   font-size: 16px;
   font-weight: 500;
@@ -150,10 +198,17 @@ a {
 }
 
 .developers-professions {
+  margin-top: 0;
+  margin-bottom: 30px;
+  padding: 0;
   font-size: 16px;
   font-weight: 400;
   line-height: 1.188;
   letter-spacing: 0.03em;
+}
+
+.workers-list {
+  display: inline-block;
 }
 
 /* footer */
