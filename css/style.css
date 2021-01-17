@@ -210,6 +210,7 @@ a {
   letter-spacing: 0.03em;
   text-align: center;
   cursor: pointer;
+  border: 0px;
 }
 
 .button-menu:hover,
