@@ -19,41 +19,43 @@
 <!--Основная часть-->
 <body>
     <header class="page-header">
-        <nav class="header-nav"> 
-            <a href="#" class="header-logo"><span class="header-web-color">Web</span>Studio</a>
-            <ul class="site-nav list">
+        <div class="header-container">
+            <nav class="header-nav"> 
+                <a href="#" class="header-logo"><span class="header-web-color">Web</span>Studio</a>
+                <ul class="site-nav list">
+                    <li class="link-title">
+                        <a href="./index.html" class="link current">Студия</a>
+                    </li>
+                    <li class="link-title">
+                        <a href="./Портфолио.html" class="link">Портфолио</a>
+                    </li>
+                    <li class="link-title">
+                        <a href="#" class="link">Контакты</a>
+                    </li>
+                </ul>
+            </nav>
+            <ul class="site-nav-contacts">
                 <li class="link-title">
-                    <a href="./index.html" class="link current">Студия</a>
+                    <a href="mailto:info@devstudio.com">info@devstudio.com</a>
                 </li>
                 <li class="link-title">
-                    <a href="./Портфолио.html" class="link">Портфолио</a>
-                </li>
-                <li class="link-title">
-                    <a href="#" class="link">Контакты</a>
+                    <a href="tel:+380961111111">+380961111111</a>
                 </li>
             </ul>
-        </nav>
-        <ul class="site-nav-contacts">
-            <li class="link-title">
-                <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-            </li>
-            <li class="link-title">
-                <a href="tel:+380961111111">+380961111111</a>
-            </li>
-        </ul>
+        </div>
     </header>
 
     <main>
-        <div class="hero-container">
-            <section class="hero-section">
+        <section class="hero-section">
+            <div class="hero-container">
                 <!--Hero-->
                 <h1 class="hero-section-title">Эффективные решения для вашего бизнеса</h1>
                 <button type="button" class="button-order">Заказать услугу</button>
-            </section>
-        </div>
+            </div>
+        </section>
         <!--Секция с преимуществами-->
         <section class="advantage-section">
-            <div class="advantage-section-container"></div>
+            <div class="advantage-section-container">
                 <ul class="advantage-list">
                     <li>
                         <h3 class="advantage-titles">Внимание к деталям</h3>
@@ -85,45 +87,49 @@
 
         <!--Секция с фото-->
         <section class="what-we-do-section">
-            <h2 class="what-we-do-title">Чем мы занимаемся</h2>
-            <ul>
-                <li>
-                    <img src="./images/box1.jpg" class="what-we-do-photos" alt="руки на клавиатуре" width="370" height="294">
-                </li>
-                <li>
-                    <img src="./images/box2.jpg" class="what-we-do-photos" alt="руки с телефоном" width="370" height="294">
-                </li>
-                <li>
-                    <img src="./images/box3.jpg" class="what-we-do-photos" alt="руки с планшетом" width="370" height="294">
-                </li>
-            </ul>
+            <div class="what-we-do-container">
+                <h2 class="what-we-do-title">Чем мы занимаемся</h2>
+                <ul>
+                    <li>
+                        <img src="./images/box1.jpg" class="what-we-do-photos" alt="руки на клавиатуре" width="370" height="294">
+                    </li>
+                    <li>
+                        <img src="./images/box2.jpg" class="what-we-do-photos" alt="руки с телефоном" width="370" height="294">
+                    </li>
+                    <li>
+                        <img src="./images/box3.jpg" class="what-we-do-photos" alt="руки с планшетом" width="370" height="294">
+                    </li>
+                </ul>
+            </div>
         </section>
 
         <!--секция с нашей командой-->
         <section class="team-section">
-            <h2 class="team-title">Наша команда</h2>
-            <ul class="workers-list">
-                <li>
-                    <img src="./images/img.jpg" class="developers-photo" alt="Мужчина в красной рубашке" width="270" height="260">
-                    <h3 class="developer-names">Игорь Демьяненко</h3>
-                    <p class="developers-professions">Product Designer</p>
-                </li>
-                <li>
-                    <img src="./images/img(1).jpg" class="developers-photo" alt="Девушка с белыми волосами" width="270" height="260">
-                    <h3 class="developer-names">Ольга Репина</h3>
-                    <p class="developers-professions">Frontend Developer</p>
-                </li>
-                <li>
-                    <img src="./images/img(2).jpg" class="developers-photo" alt="Мужчина в серой рубашке" width="270" height="260">
-                    <h3 class="developer-names">Николай Тарасов</h3>
-                    <p class="developers-professions">Marketing</p>
-                </li>
-                <li>
-                    <img src="./images/img(3).jpg" class="developers-photo" alt="Мужчина в очках" width="270" height="260">
-                    <h3 class="developer-names">Михаил Ермаков</h3>
-                    <p class="developers-professions">UI Designer</p>
-                </li>
-            </ul>
+            <div class="team-container">
+                <h2 class="team-title">Наша команда</h2>
+                <ul class="workers-list">
+                    <li>
+                        <img src="./images/img.jpg" class="developers-photo" alt="Мужчина в красной рубашке" width="270" height="260">
+                        <h3 class="developer-names">Игорь Демьяненко</h3>
+                        <p class="developers-professions">Product Designer</p>
+                    </li>
+                    <li>
+                        <img src="./images/img(1).jpg" class="developers-photo" alt="Девушка с белыми волосами" width="270" height="260">
+                        <h3 class="developer-names">Ольга Репина</h3>
+                        <p class="developers-professions">Frontend Developer</p>
+                    </li>
+                    <li>
+                        <img src="./images/img(2).jpg" class="developers-photo" alt="Мужчина в серой рубашке" width="270" height="260">
+                        <h3 class="developer-names">Николай Тарасов</h3>
+                        <p class="developers-professions">Marketing</p>
+                    </li>
+                    <li>
+                        <img src="./images/img(3).jpg" class="developers-photo" alt="Мужчина в очках" width="270" height="260">
+                        <h3 class="developer-names">Михаил Ермаков</h3>
+                        <p class="developers-professions">UI Designer</p>
+                    </li>
+                </ul>
+            </div>
     
 
         </section>
@@ -132,18 +138,20 @@
     </main>
     <!--Подвал-->
     <footer class="footer">
-        <a href="./index.html" class="footer-logo"><span class="footer-web-color">Web</span>Studio</a>
-            <address class="footer-adress">
-                <p class="physical-adress">г. Киев, пр-т Леси Украинки, 26</p>
-            </address>
-        <ul class="footer-contacts-list">
-            <li>
-                <a href="mailto:info@example.com" class="footer-contacts mail">info@example.com</a>
-            </li>
-            <li>
-                <a href="tel:+380961111111" class="footer-contacts tel">+380961111111</a>
-            </li>
-        </ul>
+        <div class="footer-container">
+            <a href="./index.html" class="footer-logo"><span class="footer-web-color">Web</span>Studio</a>
+                <address class="footer-adress">
+                    <p class="physical-adress">г. Киев, пр-т Леси Украинки, 26</p>
+                </address>
+            <ul class="footer-contacts-list">
+                <li>
+                    <a href="mailto:info@example.com" class="footer-contacts mail">info@example.com</a>
+                </li>
+                <li>
+                    <a href="tel:+380961111111" class="footer-contacts tel">+380961111111</a>
+                </li>
+            </ul>
+        </div>
     </footer>
 
 

@@ -165,6 +165,10 @@ a {
 
 /* wtah we do section */
 
+.what-we-do-section {
+  width: 1600px;
+}
+
 .what-we-do-title,
 .team-title {
   margin-top: 0;
@@ -181,12 +185,18 @@ a {
   margin-bottom: 30px;
 }
 
-.team-title {
-  padding-top: 94px;
-}
-
 .what-we-do-photos {
   margin-bottom: 94px;
+}
+
+/* Team section */
+
+.team-section {
+  width: 1600px;
+}
+
+.team-title {
+  padding-top: 94px;
 }
 
 .developer-names {
@@ -299,6 +309,11 @@ a {
   border: 0px;
 }
 
+.buttons-section {
+  margin-bottom: 0;
+  margin-top: 94px;
+}
+
 .button-menu:hover,
 .button-menu:focus {
   background-color: var(--button-active-bcg-clr);
@@ -310,6 +325,8 @@ a {
 }
 
 .portfolio-titles {
+  margin-top: 0;
+  margin-bottom: 4px;
   color: var(--title-text-color);
   font-size: 18px;
   font-weight: 700;
@@ -317,7 +334,14 @@ a {
   letter-spacing: 0.06em;
 }
 
+.portfolio-img {
+  margin-top: 34px;
+  margin-bottom: 20px;
+}
+
 .portfolio-text {
+  margin-top: 0;
+  margin-bottom: 20px;
   font-size: 16px;
   font-weight: 400;
   line-height: 1.875;
