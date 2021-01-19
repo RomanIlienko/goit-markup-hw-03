@@ -24,7 +24,6 @@ body {
   margin-right: 0;
   /* padding-left: 20px;
   padding-right: 20px; */
-  /* outline: 2px solid tomato; */
 }
 
 ul {
@@ -42,7 +41,6 @@ a {
 
 .page-header {
   width: 1600px;
-  /* height: 80px; */
   background-color: var(--second-txt-bcg-color);
 }
 
@@ -50,8 +48,8 @@ a {
   margin-top: 24px;
   margin-bottom: 25px;
   margin-right: 93px;
-  /* margin-top: 24px; */
   margin-left: 215px;
+
   color: var(--title-text-color);
   font-family: "Raleway", sans-serif;
   font-size: 26px;
@@ -89,8 +87,6 @@ a {
 
 .site-nav-contacts {
   display: flex;
-  /* margin-left: 331px;
-  margin-right: 215px; */
 }
 
 .mail {
@@ -140,7 +136,6 @@ a {
   text-align: center;
   margin-bottom: 94px;
   width: 1600px;
-  height: 600px;
 }
 
 .hero-section-title {
@@ -149,7 +144,7 @@ a {
   padding-left: 452px;
   margin-top: 0;
   margin-bottom: 30px;
-  /* background-color: tomato; */
+
   color: var(--second-txt-bcg-color);
   font-size: 44px;
   font-weight: 900;
@@ -161,9 +156,8 @@ a {
 
 .button-order {
   margin: auto;
-  /* margin-right: 700px;
   margin-bottom: 200px;
-  margin-left: 700px; */
+
   background-color: var(--accent-color);
   color: var(--second-txt-bcg-color);
   font-size: 16px;
@@ -199,6 +193,7 @@ a {
   margin-top: 0;
   margin-bottom: 10px;
   padding: 0;
+
   color: var(--title-text-color);
   font-size: 14px;
   font-weight: 700;
@@ -211,6 +206,7 @@ a {
   margin-top: 0;
   margin-bottom: 94px;
   padding: 0;
+
   font-size: 14px;
   font-weight: 400;
   line-height: 1.714;
@@ -228,6 +224,7 @@ a {
 .team-title {
   margin-top: 0;
   margin-bottom: 50px;
+
   color: var(--title-text-color);
   font-size: 36px;
   font-weight: 700;
@@ -294,6 +291,7 @@ a {
   margin-top: 0;
   margin-bottom: 124px;
   padding: 0;
+
   font-size: 16px;
   font-weight: 400;
   line-height: 1.188;
@@ -305,7 +303,6 @@ a {
 
 .footer {
   background-color: var(--hero-footer-bcg-clr);
-  /* height: 252px; */
   width: 1600px;
   border-radius: 0px;
 }
@@ -367,8 +364,6 @@ a {
 
 .footer-contacts.tel {
   margin-right: 1154px;
-  /* padding-bottom: 60px;
-  margin-bottom: 60px; */
   margin-left: 215px;
 }
 
@@ -435,8 +430,6 @@ a {
   display: flex;
   flex-wrap: wrap;
   width: 1170px;
-  /* padding-left: 15px;
-  padding-right: 15px; */
   margin-left: auto;
   margin-right: auto;
   margin-top: 34px;
@@ -450,17 +443,13 @@ a {
 .portfolio-titles {
   margin-top: 0;
   margin-bottom: 4px;
+
   color: var(--title-text-color);
   font-size: 18px;
   font-weight: 700;
   line-height: 2;
   letter-spacing: 0.06em;
 }
-
-/* .portfolio-img {
-  margin-top: 34px;
-  margin-bottom: 20px;
-} */
 
 .photocard-set-items {
   width: 370px;
@@ -471,6 +460,7 @@ a {
 .portfolio-text {
   margin-top: 0;
   margin-bottom: 20px;
+
   font-size: 16px;
   font-weight: 400;
   line-height: 1.875;
