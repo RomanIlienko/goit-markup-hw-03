@@ -266,10 +266,6 @@ a {
   margin-left: 215px;
 }
 
-.developers-photo-list {
-  /* display: flex; */
-}
-
 .developer-names {
   margin-top: 0;
   margin-bottom: 10px;
@@ -414,6 +410,20 @@ a {
   color: var(--second-txt-bcg-color);
 }
 
+/* photocard set */
+
+.photocard-set {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1170px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 34px;
+  margin-bottom: 346px;
+}
+
 .portfolio-section {
   background-color: var(--bcg-clr);
 }
@@ -428,9 +438,13 @@ a {
   letter-spacing: 0.06em;
 }
 
-.portfolio-img {
+/* .portfolio-img {
   margin-top: 34px;
   margin-bottom: 20px;
+} */
+
+.photocard-set-items {
+  width: 370px;
 }
 
 .portfolio-text {
