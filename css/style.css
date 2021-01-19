@@ -89,7 +89,15 @@ a {
 
 .site-nav-contacts {
   display: flex;
+  /* margin-left: 331px;
+  margin-right: 215px; */
+}
+
+.mail {
   margin-left: 331px;
+}
+
+.tel {
   margin-right: 215px;
 }
 
@@ -132,7 +140,7 @@ a {
   text-align: center;
   margin-bottom: 94px;
   width: 1600px;
-  /* height: 600px; */
+  height: 600px;
 }
 
 .hero-section-title {
@@ -245,6 +253,10 @@ a {
 
 .what-we-do-photos {
   margin-bottom: 94px;
+}
+
+.no-gap {
+  display: block;
 }
 
 /* Team section */
@@ -377,6 +389,8 @@ a {
   color: var(--title-text-color);
   font-family: "Roboto", sans-serif;
   border-radius: 4px;
+  padding-right: 21px;
+  padding-left: 21px;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.625;
