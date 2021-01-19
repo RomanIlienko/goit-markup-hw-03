@@ -355,6 +355,10 @@ a {
   letter-spacing: 0.03em;
 }
 
+.footer-contacts-list {
+  padding-bottom: 60px;
+}
+
 .footer-contacts.mail {
   margin-right: 1154px;
   margin-bottom: 9px;
@@ -363,7 +367,8 @@ a {
 
 .footer-contacts.tel {
   margin-right: 1154px;
-  margin-bottom: 60px;
+  /* padding-bottom: 60px;
+  margin-bottom: 60px; */
   margin-left: 215px;
 }
 
