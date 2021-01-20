@@ -19,7 +19,7 @@ body {
 }
 
 .container {
-  width: 1170px;
+  width: 1200px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 15px;
@@ -230,7 +230,23 @@ a {
 /* Team section */
 
 .developers-photo {
-  margin-bottom: 30px;
+  display: block;
+}
+
+.team-border {
+  background-color: #ffffff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+
+  padding-top: 30px;
+  padding-right: 59px;
+  padding-bottom: 30px;
+  padding-left: 60px;
+  /* border-top: 1px solid #eeeeee; */
+  border-right: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+  border-left: 1px solid #eeeeee;
 }
 
 .team-section {
@@ -245,6 +261,7 @@ a {
 .developers-list {
   display: flex;
   justify-content: space-between;
+  padding-bottom: 94px;
 }
 
 .developer-names {
@@ -261,7 +278,6 @@ a {
 
 .developers-professions {
   margin-top: 0;
-  margin-bottom: 124px;
   padding: 0;
 
   font-size: 16px;
@@ -393,7 +409,7 @@ a {
   flex-wrap: wrap;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 34px;
+  margin-top: 50px;
   margin-bottom: 346px;
 }
 
@@ -440,6 +456,10 @@ a {
   color: var(--main-text-color);
 }
 
-/* .every-third-photo {
-  margin-right: 0; */
+.photocard-set-items:nth-child(3n) {
+  margin-right: 0;
+}
+
+.photocard-set-items {
+  width: calc((100% - 60px) / 3);
 }
