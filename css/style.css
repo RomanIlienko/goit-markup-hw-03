@@ -457,9 +457,20 @@ a {
   margin-bottom: 30px;
 }
 
+.photocard-set-description {
+  padding-top: 20px;
+  padding-right: 24px;
+  padding-left: 24px;
+  border-top: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+  border-left: 1px solid #eeeeee;
+}
+
 .portfolio-text {
+  padding-bottom: 20px;
   margin-top: 0;
-  margin-bottom: 20px;
+  margin-bottom: 0px;
 
   font-size: 16px;
   font-weight: 400;
@@ -470,4 +481,8 @@ a {
 
 .every-third-photo {
   margin-right: 0;
+}
+
+.portfolio-img {
+  display: block;
 }
