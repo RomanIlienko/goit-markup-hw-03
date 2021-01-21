@@ -259,17 +259,17 @@ a {
 
 .team-section {
   background-color: #f5f4fa;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .team-title {
   text-align: center;
-  padding-top: 94px;
 }
 
 .developers-list {
   display: flex;
   justify-content: space-between;
-  padding-bottom: 94px;
 }
 
 .developer-names {
