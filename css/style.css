@@ -340,8 +340,12 @@ a {
   letter-spacing: 0.03em;
 }
 
-.footer-mail {
+/* .footer-mail {
   display: block;
+  margin-bottom: 9px;
+} */
+
+.mail-list {
   margin-bottom: 9px;
 }
 
