@@ -128,13 +128,25 @@ a {
 }
 
 /* hero */
+
 .hero-section {
   background-color: var(--hero-footer-bcg-clr);
   text-align: center;
+}
+
+.parent {
+  margin-right: auto;
+  margin-left: auto;
   padding-top: 200px;
   padding-right: 452px;
   padding-bottom: 200px;
   padding-left: 452px;
+  height: 600px;
+  width: 1600px;
+}
+
+.hero-div {
+  width: 696px;
 }
 
 .hero-section-title {
@@ -148,11 +160,6 @@ a {
   letter-spacing: 0.06em;
   text-align: center;
   text-transform: uppercase;
-}
-
-.hero-div {
-  width: 696px;
-  height: 200px;
 }
 
 .button-order {
@@ -257,7 +264,9 @@ a {
   border-radius: 0px 0px 4px 4px;
 
   padding-top: 30px;
+  padding-right: 32px;
   padding-bottom: 30px;
+  padding-left: 32px;
   border-right: 1px solid #eeeeee;
   border-bottom: 1px solid #eeeeee;
   border-left: 1px solid #eeeeee;
