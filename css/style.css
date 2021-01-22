@@ -92,6 +92,7 @@ a {
 
 .site-nav-contacts {
   display: flex;
+  margin-left: auto;
 }
 
 .site-nav .link-title:last-child {
@@ -132,20 +133,13 @@ a {
 .hero-section {
   background-color: var(--hero-footer-bcg-clr);
   text-align: center;
-}
-
-.parent {
-  margin-right: auto;
-  margin-left: auto;
   padding-top: 200px;
-  padding-right: 452px;
   padding-bottom: 200px;
-  padding-left: 452px;
-  height: 600px;
-  width: 1600px;
 }
 
 .hero-div {
+  margin-right: auto;
+  margin-left: auto;
   width: 696px;
 }
 
