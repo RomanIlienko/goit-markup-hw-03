@@ -131,6 +131,10 @@ a {
 .hero-section {
   background-color: var(--hero-footer-bcg-clr);
   text-align: center;
+  padding-top: 200px;
+  padding-right: 452px;
+  padding-bottom: 200px;
+  padding-left: 452px;
 }
 
 .hero-section-title {
@@ -147,10 +151,8 @@ a {
 }
 
 .hero-div {
-  padding-top: 200px;
-  padding-right: 452px;
-  padding-bottom: 200px;
-  padding-left: 452px;
+  width: 696px;
+  height: 200px;
 }
 
 .button-order {
@@ -204,6 +206,7 @@ a {
   line-height: 1.143;
   letter-spacing: 0.03em;
   text-align: left;
+  text-transform: uppercase;
 }
 
 .advantage-titles-text {
@@ -427,7 +430,7 @@ a {
 .portfolio-section {
   background-color: var(--bcg-clr);
   padding-top: 94px;
-  padding-bottom: 346px;
+  padding-bottom: 94px;
 }
 
 .portfolio-titles {
